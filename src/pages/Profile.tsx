@@ -14,11 +14,11 @@ import {
 const Profile = () => {
   // Profile state with initial dummy data
   const [profile, setProfile] = useState({
-    name: "Sonali Kotlapure",
+    name: "Rupali Khandare",
     headline: "Student at Deogiri Institute of Engineering and Management Studies",
     location: "Aurangabad, Maharashtra, India",
-    connections: 421,
-    profileViews: 119,
+    connections: 1110,
+    profileViews: 120,
     postImpressions: 7,
     about: "I am a passionate engineering student with interest in web development and UI/UX design. Looking for opportunities to grow my skills in these areas.",
     photo: "/lovable-uploads/c537598b-c6fa-42e9-ac7b-1cc824f19783.png",

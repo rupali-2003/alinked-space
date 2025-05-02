@@ -6,11 +6,11 @@ import { useEffect, useState } from "react";
 export default function ProfileCard() {
   // Get profile data from localStorage if available
   const [profile, setProfile] = useState({
-    name: "Sonali Kotlapure",
+    name: "Rupali khandare",
     headline: "Student at Deogiri Institute of Engineering and Management Studies",
     photo: "/lovable-uploads/c537598b-c6fa-42e9-ac7b-1cc824f19783.png",
-    profileViews: 119,
-    postImpressions: 7
+    profileViews: 120,
+    postImpressions: 6.5
   });
 
   // Check for profile updates from the Profile page

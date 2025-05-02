@@ -8,7 +8,9 @@ import Index from "./pages/Index";
 import Profile from "./pages/Profile";
 import Network from "./pages/Network";
 import Messaging from "./pages/Messaging";
+import Notifications from "./pages/Notifications";
 import NotFound from "./pages/NotFound";
+import Jobs from "./pages/Jobs";
 
 const queryClient = new QueryClient();
 
@@ -23,8 +25,8 @@ const App = () => (
           <Route path="/profile" element={<Profile />} />
           <Route path="/network" element={<Network />} />
           <Route path="/messaging" element={<Messaging />} />
-          <Route path="/jobs" element={<Index />} /> {/* Placeholder, would be its own page */}
-          <Route path="/notifications" element={<Index />} /> {/* Placeholder, would be its own page */}
+          <Route path="/jobs" element={<Jobs />} /> {/* Placeholder, would be its own page */}
+          <Route path="/notifications" element={<Notifications />} /> {/* Placeholder, would be its own page */}
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
